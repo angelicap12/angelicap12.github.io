@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+<link rel="stylesheet" href="/css/redes.css">
+<title>Redes</title>
+</head>
+<body>
+
+  <ul class="navbar">
+    <li><a href="/views/index.html">Inicio</a></li>
+    <li><a href="/views/Elementos.html">Componentes</a>
+      <ul class="nav"> 
+        <li><a href="/views/Software.html">Software</a></li>
+        <li><a href="/views/hardware.html">Hardware</a></li>
+        <li><a href="/views/Redes.html">Redes</a></li>
+      </ul>
+    </li>
+    <li><a href="/views/formulario.html">Quiz</a></li>
+  </ul>
+
+  <h1>RED DE TELECOMUNICACIONES</h1>
+
+  <p>
+      Grupo organizado de recursos (dispositivos, servicios y medios de transmisión y conmutación), que proporcionan las vías necesarias para establecer la interconexión de equipos y permitir la transmisión de información desde un origen hasta su destino.
+      <br>
+      Infraestructura física a través de la cual se transporta información desde la fuente hasta el destino, y se ofrecen a los usuarios servicios de telecomunicaciones.
+      <br>
+      Conjunto de nodos enlazados que permiten compartir recursos físicos y lógicos y transmitir información por diferentes canales y dispositivos desde un origen hasta su destino.
+  </p>
+  
+  <h2>TENDENCIAS</h2>
+  <table border="1">
+      <tr>
+          <th>Industria</th>
+          <th>Tecnologia</th>
+          <th>Aplicaciones</th>
+      </tr>
+      <tr>
+          <td>Número de distribuidores, portadoras, alianzas y servicios de red competitivos, acelerado por la desregularización y el crecimiento de Internet</td>
+          <td>Internet y otras redes locales para voz, datos, imágenes, video, líneas de alta velocidad, canales satelitales, IPV6, convergencia, ADSL2</td>
+          <td>Internet, Intranet organizacionales y Extranet inter-organizacionales para respaldar el E-commerce, la colaboración empresarial, operaciones empresariales en línea y ventaja estratégica en mercados locales y globales.</td>
+      </tr>
+  </table>
+  
+  <h3>COMPONENTES</h3>
+  <p><b>- Communications processors (Procesadores de comunicaciones):</b> módems, multiplexores y procesadores frontales que proporcionan las funciones de soporte para la transmisión y la recepción de los datos.
+      <br>
+      1. Front-end
+      <br>2. Concentrator
+      <br>3. Controller
+      <br>4. Multiplexer
+  </p>
+  <p><b>- Communications software (Software de comunicaciones):</b> Controla las actividades de I/O y maneja otras funciones de la red de comunicaciones</p>
+  <p><b>- Computers (Computadoras):</b> Para procesar la información.</p>
+  <p><b>- Terminals (Terminales):</b> Dispositivos de I/O que envíen o reciban datos.</p>
+  <p><b>- Communications Channels (Canales de comunicaciones):</b> Los enlaces mediante los cuales los datos o la voz son transmitidos entre los dispositivos de emisión y recepción en una red. Los canales de comunicación emplean diversos medios de comunicaciones, como líneas de teléfonos, cables de fibra óptica, cables coaxiales y transmisión inalámbrica.</p>
+  
+  <h2>FUNCIONES</h2>
+  <p>- Transmisión de datos e información
+      <br>- Establecer interfaz entre emisor-receptor
+      <br>- Enrutar los mensajes por caminos eficientes.
+      <br>- Ejecutar el procesamiento elemental de información.
+      <br>- Ejecutar tareas de edición sobre los datos.
+      <br>- Conversión rápida de mensajes o formatos.
+      <br>- Controlar el flujo datos e información
+  </p>
+  
+  <h3>ENCAPSULAMIENTO</h3>
+  <table border="1">
+      <tr>
+          <th>Crear los datos</th>
+          <th>Empaquetar los datos para ser transportados de extremo a extremo</th>
+          <th>Agregar la dirección de red IP al encabezado.</th>
+          <th>Agregar el encabezado y la información final de la capa de enlace de datos</th>
+          <th>Realizar la conversión a bits para su transmisión.</th>
+      </tr>
+      <tr>
+          <td>Cuando un usuario envía un mensaje de correo electrónico, sus caracteres alfanuméricos se convierten en datos que pueden recorrer la red.</td>
+          <td>Los datos se empaquetan para ser transportados por la internetwork. Al utilizar segmentos, la función de transporte asegura que los hosts de mensaje en ambos extremos del sistema de correo electrónico se puedan comunicar de forma confiable.</td>
+          <td>Los datos se colocan en un paquete o datagrama que contiene un encabezado de paquete con las direcciones lógicas de origen y de destino. Estas direcciones ayudan a los dispositivos de red a enviar los paquetes a través de la red por una ruta seleccionada.</td>
+          <td>Cada dispositivo de la red debe poner el paquete dentro de una trama. La trama le permite conectarse al próximo dispositivo de red conectado directamente en el enlace. Cada dispositivo en la ruta de red seleccionada requiere el entramado para poder conectarse al siguiente dispositivo.</td>
+          <td>La trama debe convertirse en un patrón binario (bits) para su transmisión a través del medio. Una función de temporización permite que los dispositivos distingan estos bits a medida que se trasladan por el medio. El medio en la capa física puede variar a lo largo de la ruta utilizada. Por ejemplo, el mensaje de correo electrónico se puede originar en una LAN, atravesar el backbone de una universidad y salir por un enlace WAN hasta llegar a su destino en otra LAN remota.</td>
+      </tr>
+  </table>
+  
+  <h2>CABLES</h2>
+  <h3>Alámbricos</h3>
+  <table border="1">
+      <tr>
+          <th>Twisted wire:</th>
+          <th>Coaxial cable:</th>
+          <th>Fiber optics and optical networks:</th>
+      </tr>
+      <tr>
+          <td>1. Sistema telefónico
+              <br>2. UTP Sin apantallar
+              <br>3. FTP Pantalla global
+              <br>4. STP Apantallado
+          </td>
+          <td>Cable de TV</td>
+          <td>Dense wave division multiplexing (DWDM)</td>
+      </tr>
+  </table>
+  
+  <h3>Inalámbricos</h3>
+  <p>- Microwave
+      <br>- Radiowave
+      <br>- Bluetooth
+      <br>- Infrared
+      <br>- Satellites
+      <br>- Paging systems
+      <br>- Cellular telephones
+      <br>- Personal communication Services (PSC)
+      <br>- Personal digital assistants (PDA)
+      <br>- Mobile data networks
+      <br>- (GSM,CDMA Y LTE…)WIFI-WIMAX
+  </p>
+  
+  </body>
+  </html>

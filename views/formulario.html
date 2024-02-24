@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="/views/index.html">Inicio</a></li>
+        <li><a href="/views/Elementos.html">Componentes</a>
+          <ul class="nav"> 
+            <li><a href="/views/Software.html">Software</a></li>
+            <li><a href="/views/hardware.html">Hardware</a></li>
+            <li><a href="/views/Redes.html">Redes</a></li>
+          </ul>
+        </li>
+        <li><a href="/views/formulario.html">Quiz</a></li>
+      </ul>
+
+
+    <div class="container">
+        <h1>Quiz HTML</h1>
+        <form action="#">
+            <h2>Pregunta 1: ¿Guarda los archivos de inicio del computador y reconocimiento del Hardware instalado y se lee cuando el computador se enciende?</h2>
+            <label><input type="radio" name="pregunta1" value="a"> Sistema Básico de entrada y salida-BIOS </label>
+            <label><input type="radio" name="pregunta1" value="b"> El Microprocesador </label>
+            <label><input type="radio" name="pregunta1" value="c"> El Disco Duro </label>
+            <label><input type="radio" name="pregunta1" value="d"> La Memoria RAM </label>
+    
+            <h2>Pregunta 2: ¿En qué capa del modelo TCP/IP opera TCP?</h2>
+            <label><input type="radio" name="pregunta2" value="a"> Sesión </label>
+            <label><input type="radio" name="pregunta2" value="b"> Transporte </label>
+            <label><input type="radio" name="pregunta2" value="c"> Red </label>
+            <label><input type="radio" name="pregunta2" value="d"> Enlace de datos </label>
+    
+            <h2>Pregunta 3:  ¿Las libertades de un software libre son?</h2>
+            <label><input type="radio" name="pregunta3" value="a"> Uso y expresión </label>
+            <label><input type="radio" name="pregunta3" value="b"> Ninguna de las opciones </label>
+            <label><input type="radio" name="pregunta3" value="c"> Uso, estudio, publicación y mejora </label>
+            <label><input type="radio" name="pregunta3" value="d"> Uso, estudio, distribución y mejora </label>
+    
+            <input type="submit" value="Enviar respuestas">
+        </form>
+    </div>
+</body>
+</html>

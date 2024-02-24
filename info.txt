@@ -1,0 +1,18 @@
+1. pagina web con formulario y el contenido se divide en 3 paginas con videos y enlaces a un archivo de excel
+2. pulicar en un servidor gratuito 
+3. tener hojas de estilo
+
+
+
+ - puntos para tener en cuenta
+  1- hojas de estilo
+  2- etiquetas basicas  (hiper enlaces - vinculos internos y externos - )
+  3- etiquetas complementarias
+  4- estructura de archivos en carpetas (imagenes - vistas - estilos)
+  5- inclusion de formulario para simular un test
+
+  para poder evaluar la pagina debe de ser publicada 
+
+
+  // para poder abrirse en navegador es importante tener visual studio code y la extenxion go live para que funcione correctamente 
+  // tambien se puede abrir dandole click al index desde la carpeta 
