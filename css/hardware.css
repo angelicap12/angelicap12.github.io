@@ -99,16 +99,10 @@ img {
     margin: 20px auto;
 }
 
-ol {
-  margin-left: 2%;
-  text-align: left;
-  align-items: left;
-}
-
-ul {
-    margin-left: 50%;
-    text-align: left;
-    align-items: left;
+ul, ol {
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 a {
@@ -121,9 +115,32 @@ a:hover {
     text-decoration: underline;
 }
 
+.ol_custom {
+  margin-left: 2%;
+  text-align: left;
+  align-items: left;
+}
+
+.ul_custom {
+    margin-left: 50%;
+    text-align: left;
+    align-items: left;
+}
+
 .tablapersonalizada {
   margin-bottom: 10px;
   color: #444;
   text-align: left;
   justify-content: space-around;
+
+  ol{
+    margin-left: 2%;
+    text-align: left;
+    align-items: left;
+  }
+  ul{
+    margin-left: 50%;
+    text-align: left;
+    align-items: left;
+  }
 }
