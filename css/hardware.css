@@ -16,6 +16,7 @@
   .navbar li {
     float: left;
   }
+
   
   .navbar a {
     display: block;
@@ -143,4 +144,10 @@ a:hover {
     text-align: left;
     align-items: left;
   }
+}
+
+.enlace {
+  margin-left: 50%;
+  text-align: center;
+  align-items: center;
 }
